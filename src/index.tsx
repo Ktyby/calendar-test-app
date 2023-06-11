@@ -11,8 +11,6 @@ import { PersistGate } from "redux-persist/integration/react";
 import App from "./components/App";
 import rootReducer from "./store/reducers";
 
-import "./style.css";
-
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
